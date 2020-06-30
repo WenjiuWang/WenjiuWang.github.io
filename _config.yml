@@ -1,0 +1,60 @@
+# Site
+title:              Vanjor's Hub
+bio:                "Welcome to Vanjor's Hub, the personal site of Wenjiu Wang."
+description:        "Welcome to Vanjor's Hub, the personal site of Wenjiu Wang."
+reading_time:       true
+words_per_minute:   200
+profile:            'assets/img/profile.jpg'
+logo:               'assets/img/logo.png'
+background:         ''
+tiled_bg:           false
+locale:             en_US
+url:                http://localhost:4000
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   vanjor
+
+# Social
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+email:              vanjor1014@gmail.com
+#twitter:            ?
+#facebook:           ?
+github-url:         WenjiuWang
+linkedin:           wenjiu-wang-250a96191
+instagram:          vanjor_
+steam:              vanjor
+#weibo:             ?
+
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

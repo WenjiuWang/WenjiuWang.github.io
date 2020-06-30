@@ -1,0 +1,23 @@
+I"�<h2 id="about-me">About Me</h2>
+<hr />
+<p>Hello, I’m <strong>Wenjiu Wang</strong>, a proud UWaterloo CS graduate who currently pursue a MCS degree at UOttawa. 
+I’m passinate about software development, mobile development, and enabling AI to average consumers. 
+Beside programming, I enjoy travelling and gaming. Checkout my Instagram and Steam profile to discover my latest moments.</p>
+
+<blockquote>
+  <p>By the way, people call me <em>Vanjor</em>.</p>
+</blockquote>
+
+<h2 id="skills">Skills</h2>
+<hr />
+<h3 id="languages">Languages</h3>
+<ul>
+  <li>C++, Java, Python, JavaScript, Kotlin, Swift5, C#</li>
+</ul>
+
+<h3 id="libraries-and-frameworks">Libraries and Frameworks</h3>
+<ul>
+  <li>Scikit-Learn, TensorFlow, PyTorch, Keras</li>
+</ul>
+
+:ET
