@@ -9,7 +9,7 @@ logo:               'assets/img/logo.png'
 background:         ''
 tiled_bg:           false
 locale:             en_US
-url:                http://localhost:4000
+url:                http://wenjiuwang.github.io
 
 # Jekyll
 permalink:          /:title/
