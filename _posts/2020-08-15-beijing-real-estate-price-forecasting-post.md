@@ -288,7 +288,7 @@ kernel_initializer=tf.keras.initializers.LecunNormal()),
 keras.layers.Dense(1)
 ])
 
-model.compile(loss="mean_absolute_error", optimizer=opt)
+model.compile(loss="mae", optimizer=opt, metrics=['RootMeanSquaredError'])
 
 history = model.fit(train_dataset, train_labels, epochs=500,
  validation_split=0.2)
