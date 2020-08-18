@@ -269,7 +269,6 @@ The above two pairs of plots show how the product of Longitude and tradetime , a
 
 ### Neuron Network
 {% highlight Python %}
-
 lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
     0.01,
     decay_steps=100000,
@@ -288,10 +287,9 @@ kernel_initializer=tf.keras.initializers.LecunNormal()),
 keras.layers.Dense(1)
 ])
 
-model.compile(loss="mae", optimizer=opt, metrics=['RootMeanSquaredError'])
+model.compile(loss=root, optimizer=opt)
 
-history = model.fit(train_dataset, train_labels, epochs=500,
- validation_split=0.2)
+history = model.fit(train_dataset, train_labels, epochs=500, validation_split=0.2)
 {% endhighlight %}
 
 The model structure is rather simple, it consists of 1 input layer, 1 output layer, and 2 hidden layers. For each hidden layer, there are 43 SELU nodes initialized by LeCun. Model is trained by an Adam optimizer with exponential decay scheduling for 500 epochs. Training and validation loss eventually converges to 3737and 3939respectively after 500 epochs. The final model gives a prediction loss of 3998 on the test dataset. 
