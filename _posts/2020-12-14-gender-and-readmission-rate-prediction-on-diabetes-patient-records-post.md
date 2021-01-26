@@ -297,7 +297,8 @@ Friedman's Test as we are dealing with multiple algorithms on multiple datasets.
 ### Supervised learning with feature `readmitted` as target
 
 #### Table 3: Supervised Model Results for Readmission rate as target
-| **Model** | **Average accuracy** | **Macro-avg ROC curve** | **Average f1-score (No) ** | **Average f1-score (>30)** | **Average f1-score (<30) ** | **Average Training time** | **Average Validating time** |
+
+| **Model** | **Average accuracy** | **Macro-avg ROC curve** | **Average f1-score (No)** | **Average f1-score (>30)** | **Average f1-score (<30)** | **Average Training time** | **Average Validating time** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **SVM** | 0.74 | 0.7 | 0.6 | 0.52 | 0.83 | 427.69 | 21 |
 |----
