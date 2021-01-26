@@ -126,6 +126,7 @@ exploration result I summarized for each feature.
 | **diabetesMed** | Ordinal | Nothing interesting |
 |----
 | **readmitted** | Ordinal | This is the target feature of the first task. This feature is imbalanced.
+{: rules="groups"}
 
 
 ## Feature Engineering and Preprocessing
@@ -232,6 +233,7 @@ correlation are found between target features and other features for both tasks.
 |----
 | **readmitted** | Encode by OrdinalEncoder | Ordinal feature ordered by severity |
 |----
+{: rules="groups"}
 
 ## Methods
 ### Supervised learning with feature `readmitted` as target
@@ -311,6 +313,7 @@ Friedman's Test as we are dealing with multiple algorithms on multiple datasets.
 | **Naïve Bayesian** | 0.52 | 0.58 | 0.37 | 0.39 | 0.62 | 0.07 | 0.01 |
 |----
 | **Random Forest** | 0.88 | 0.85 | 0.78 | 0.82 | 0.93 | 12.50 | 0.21 |
+{: rules="groups"}
 
 Generally, the precision score is greater than the recall score for both class `>30` and `No` for all
 algorithms, and the opposite is true for class `<30` for all models. Overall, the precision and
@@ -352,6 +355,7 @@ much, while the training processes for KNN is a lot faster than before.
 | **Naïve Bayesian** | 0.57 | 0.55 | 0.63 | 0.47 | 0.05 | 0.009 |
 |----
 | **Random Forest** | 0.57 | 0.56 | 0.62 | 0.50 | 14.62 | 0.31 |
+{: rules="groups"}
 
 
 Table 6 records a summary of performance for all models. Generally, all six models give similar
@@ -375,6 +379,7 @@ Table 7: Section 5.3 Model Results
 | **Label Spreading** | 0.80 | 0.79 | 0.78 | 0.76 | 0.59 | 0.48 | 359.78 |
 |----
 | **Self-Training** | 0.86 | 0.85 | 0.84 | 0.80 | 0.69 | 0.65 | N/A
+{: rules="groups"}
 
 
 Generally, the accuracy decreases as the percent of unlabelled data increases. As demonstrated
